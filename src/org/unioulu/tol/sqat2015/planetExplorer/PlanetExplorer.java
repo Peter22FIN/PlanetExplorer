@@ -40,6 +40,7 @@ public class PlanetExplorer {
 					obstacleY[k] = obstacle;
 					obstacle = "";
 					k++;
+					j=0;
 					}
 				obstacle = obstacle + o;
 				}
