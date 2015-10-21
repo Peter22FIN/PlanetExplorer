@@ -7,3 +7,6 @@ RefactoringAction 1445427574022 TestPlanetExplorer.java RENAME testCommandForwar
 RefactoringAction 1445427577559 TestPlanetExplorer.java RENAME testCommandForward()=>void testCommandForwardVehicle FIELD
 RefactoringAction 1445427749236 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.* IMPORT
 EditAction 1445427840749 TestPlanetExplorer.java 384 1 2 0
+CompilationAction 1445427841073 TestPlanetExplorer.java
+CompilationAction 1445427873684 TestPlanetExplorer.java
+EditAction 1445427999380 TestPlanetExplorer.java 388 1 2 1

@@ -9,6 +9,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void testCommandForwardVehicleGoesNorth() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
-		PlanetExplorer command = new executeCommand("");
+		assertEquals("0,1,N", explorer.executeCommand("f"));
 	}
 }
