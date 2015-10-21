@@ -99,7 +99,7 @@ public class PlanetExplorer {
 			}
 			if (isObstacles) {
 				for (int k = 0; k < obstacleX.length;k++) {
-					if (pos_x == obstacleX[k] || pos_y == obstacleY[k]) collision=1;
+					if (pos_x == obstacleX[k] && pos_y == obstacleY[k]) collision=1;
 				}
 			}
 			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y & collision == 0) location = pos_x + "," + pos_y + "," + facing;
