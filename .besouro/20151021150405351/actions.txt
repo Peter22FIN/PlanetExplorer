@@ -27,3 +27,17 @@ EditAction 1445429230055 TestPlanetExplorer.java 745 3 6 3
 UnitTestCaseAction 1445429232407 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445429232407 TestPlanetExplorer FAIL
 EditAction 1445429258639 TestPlanetExplorer.java 745 3 6 3
+UnitTestCaseAction 1445429260170 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429260171 TestPlanetExplorer OK
+RefactoringAction 1445429371731 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1445429378772 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1445429565444 TestPlanetExplorer.java ADD void testCommandFFRFreturns02E()/2 METHOD
+RefactoringAction 1445429576460 TestPlanetExplorer.java RENAME testCommandFFRFreturns02E()/2=>void testCommandVehicle() METHOD
+RefactoringAction 1445429578974 TestPlanetExplorer.java RENAME testCommandVehicle()=>void testCommandVehicleTries() METHOD
+RefactoringAction 1445429583488 TestPlanetExplorer.java RENAME testCommandVehicleTries()=>void testCommandVehicle() METHOD
+RefactoringAction 1445429591002 TestPlanetExplorer.java RENAME testCommandVehicle()=>void testCommandVehicleCant() METHOD
+RefactoringAction 1445429592017 TestPlanetExplorer.java RENAME testCommandVehicleCant()=>void testCommandVehicleCantGo() METHOD
+RefactoringAction 1445429593532 TestPlanetExplorer.java RENAME testCommandVehicleCantGo()=>void testCommandVehicleCantGoOver() METHOD
+RefactoringAction 1445429601048 TestPlanetExplorer.java RENAME testCommandVehicleCantGoOver()=>void testCommandVehicleCantGoOverPlaner() METHOD
+RefactoringAction 1445429602060 TestPlanetExplorer.java RENAME testCommandVehicleCantGoOverPlaner()=>void testCommandVehicleCantGoOverPlanet() METHOD
+EditAction 1445429645950 PlanetExplorer.java 2680 2 8 0
