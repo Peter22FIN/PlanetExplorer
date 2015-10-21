@@ -24,6 +24,8 @@ public class PlanetExplorer {
 		int j=0;
 		int k=0;
 		String obstacle = "";
+		obstacleX = new int[10];
+		obstacleY = new int[10];
 
 		if (obstacles.equals("")) {
 			isObstacles=false;
@@ -34,11 +36,11 @@ public class PlanetExplorer {
 				if (j==0 && o==40) j=1;
 				else {
 					if (o==44) {
-					obstacleX[1] = Integer.parseInt("2");
+					obstacleX[k] = Integer.parseInt(obstacle);
 					obstacle = "";
 					}
 					else if (o==41 || i+1==obstacles.length()) {
-					obstacleY[1] = Integer.parseInt("2");
+					obstacleY[k] = Integer.parseInt(obstacle);
 					obstacle = "";
 					k++;
 					j=0;
@@ -95,11 +97,11 @@ public class PlanetExplorer {
 				else if (facing == 69) facing = 78; //EAST -> NORTH
 				else if (facing == 87) facing = 83; //WEST -> SOUTH
 			}
-			/*if (isObstacles) {
+			if (isObstacles) {
 				for (int k = 0; k < obstacleX.length;k++) {
-					if (pos_x == Integer.parseInt(obstacleX[k]) || pos_y == Integer.parseInt(obstacleY[k])) collision=1;
+					if (pos_x == obstacleX[k] || pos_y == obstacleY[k]) collision=1;
 				}
-			}*/
+			}
 			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y & collision == 0) location = pos_x + "," + pos_y + "," + facing;
 			collision = 0;
 		}

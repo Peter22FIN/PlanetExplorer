@@ -138,3 +138,10 @@ EditAction 1445433491913 PlanetExplorer.java 3536 2 13 0
 UnitTestCaseAction 1445433494210 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433494211 TestPlanetExplorer FAIL
 EditAction 1445433513825 PlanetExplorer.java 3554 2 13 0
+UnitTestCaseAction 1445433516448 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433516448 TestPlanetExplorer FAIL
+RefactoringAction 1445433542066 PlanetExplorer.java REMOVE obstacleX FIELD
+RefactoringAction 1445433545084 PlanetExplorer.java REMOVE obstacleY FIELD
+RefactoringAction 1445433549603 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445433551121 PlanetExplorer.java ADD int FIELD
+EditAction 1445433642129 PlanetExplorer.java 3580 2 15 0
