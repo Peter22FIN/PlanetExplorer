@@ -38,8 +38,10 @@ public class PlanetExplorer {
 					}
 					if (o==41 || i+1==obstacles.length()) {
 					obstacleY[k] = obstacle;
-						k++;
+					obstacle = "";
+					k++;
 					}
+				obstacle = obstacle + o;
 				}
 			}	
 		}

@@ -79,3 +79,6 @@ RefactoringAction 1445432016291 PlanetExplorer.java REMOVE is FIELD
 RefactoringAction 1445432019832 PlanetExplorer.java ADD boolean is FIELD
 RefactoringAction 1445432031869 PlanetExplorer.java RENAME is=>boolean isObstacles FIELD
 EditAction 1445432108404 PlanetExplorer.java 3424 2 13 0
+UnitTestCaseAction 1445432111249 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432111249 TestPlanetExplorer FAIL
+EditAction 1445432242858 PlanetExplorer.java 3474 2 13 0
