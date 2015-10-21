@@ -41,3 +41,4 @@ RefactoringAction 1445429593532 TestPlanetExplorer.java RENAME testCommandVehicl
 RefactoringAction 1445429601048 TestPlanetExplorer.java RENAME testCommandVehicleCantGoOver()=>void testCommandVehicleCantGoOverPlaner() METHOD
 RefactoringAction 1445429602060 TestPlanetExplorer.java RENAME testCommandVehicleCantGoOverPlaner()=>void testCommandVehicleCantGoOverPlanet() METHOD
 EditAction 1445429645950 PlanetExplorer.java 2680 2 8 0
+EditAction 1445429649440 TestPlanetExplorer.java 926 4 8 4

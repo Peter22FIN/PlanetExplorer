@@ -24,4 +24,9 @@ public class TestPlanetExplorer {
 		assertEquals("1,2,E", explorer.executeCommand("ffrf"));
 	}
 	
+	@Test
+	public void testCommandVehicleCantGoOverPlanet() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("0,3,N", explorer.executeCommand("ffff"));
+	}
 }
