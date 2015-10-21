@@ -34,11 +34,11 @@ public class PlanetExplorer {
 				if (j==0 && o==40) j=1;
 				else {
 					if (o==44) {
-					obstacleX[k] = "asd";
+					obstacleX[k] = "0";
 					obstacle = "";
 					}
 					else if (o==41 || i+1==obstacles.length()) {
-					//obstacleY[k] = obstacle;
+					obstacleY[k] = "2";
 					obstacle = "";
 					k++;
 					j=0;
