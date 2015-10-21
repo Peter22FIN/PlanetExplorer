@@ -7,8 +7,8 @@ public class PlanetExplorer {
 	
 	private int x;
 	private int y;
-	private String[] obstacleX;
-	private String[] obstacleY;
+	private int[] obstacleX;
+	private int[] obstacleY;
 	private boolean isObstacles=true;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -34,11 +34,11 @@ public class PlanetExplorer {
 				if (j==0 && o==40) j=1;
 				else {
 					if (o==44) {
-					obstacleX[k] = "0";
+					obstacleX[0] = Integer.parseInt("2");
 					obstacle = "";
 					}
 					else if (o==41 || i+1==obstacles.length()) {
-					obstacleY[k] = "2";
+					obstacleY[0] = Integer.parseInt("2");
 					obstacle = "";
 					k++;
 					j=0;
