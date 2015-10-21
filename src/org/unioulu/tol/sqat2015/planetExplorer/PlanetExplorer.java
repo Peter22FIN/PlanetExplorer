@@ -33,16 +33,16 @@ public class PlanetExplorer {
 		for (int index = 0; index < command.length();index++) {
 			char c = command.charAt(index);
 			if (c==102) { //forward
-				if (facing == 78) pos_x++; //NORTH
-				else if (facing == 83) pos_x--; //SOUTH
-				else if (facing == 69) pos_y++; //EAST
-				else if (facing == 87) pos_y--; //WEST
+				if (facing == 78) pos_y++; //NORTH
+				else if (facing == 83) pos_y--; //SOUTH
+				else if (facing == 69) pos_x++; //EAST
+				else if (facing == 87) pos_x--; //WEST
 			}
 			else if (c==98) { //backward
-				if (facing == 78) pos_x--; //NORTH
-				else if (facing == 83) pos_x++; //SOUTH
-				else if (facing == 69) pos_y--; //EAST
-				else if (facing == 87) pos_y++; //WEST
+				if (facing == 78) pos_y--; //NORTH
+				else if (facing == 83) pos_y++; //SOUTH
+				else if (facing == 69) pos_x--; //EAST
+				else if (facing == 87) pos_x++; //WEST
 			}
 			else if (c==114) { //right
 				if (facing == 78) facing = 69; //NORTH -> EAST
