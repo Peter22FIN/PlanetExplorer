@@ -1,0 +1,9 @@
+FileOpenedAction 1445426705615 PlanetExplorer.java 1342 2 1 0
+RefactoringAction 1445427541959 TestPlanetExplorer.java RENAME test()=>void testCommand() METHOD
+RefactoringAction 1445427559976 TestPlanetExplorer.java RENAME testCommand()=>void testCommandFor() METHOD
+RefactoringAction 1445427563491 TestPlanetExplorer.java RENAME testCommandFor()=>void testCommandForward() METHOD
+RefactoringAction 1445427570507 TestPlanetExplorer.java RENAME testCommandForward()=>void testCommandForwardShip() METHOD
+RefactoringAction 1445427574022 TestPlanetExplorer.java RENAME testCommandForwardShip()=>void testCommandForward() METHOD
+RefactoringAction 1445427577559 TestPlanetExplorer.java RENAME testCommandForward()=>void testCommandForwardVehicle FIELD
+RefactoringAction 1445427749236 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.* IMPORT
+EditAction 1445427840749 TestPlanetExplorer.java 384 1 2 0
