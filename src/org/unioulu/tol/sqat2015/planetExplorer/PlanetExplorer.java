@@ -35,6 +35,7 @@ public class PlanetExplorer {
 				else {
 					if (o==44) {
 					obstacleX[k] = obstacle;
+					obstacle = "";
 					}
 					if (o==41 || i+1==obstacles.length()) {
 					obstacleY[k] = obstacle;
