@@ -41,4 +41,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,2)");
 		assertEquals("0,1,N", explorer.executeCommand("ff"));
 	}
+	
+	@Test
+	public void testCommandFFFwithObstacleReturns01N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,2)");
+		assertEquals("0,1,N", explorer.executeCommand("fff"));
+	}
 }
