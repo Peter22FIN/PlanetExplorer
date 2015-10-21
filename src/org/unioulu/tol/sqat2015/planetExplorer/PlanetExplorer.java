@@ -64,7 +64,7 @@ public class PlanetExplorer {
 				else if (facing == 69) facing = 78; //EAST -> NORTH
 				else if (facing == 87) facing = 83; //WEST -> SOUTH
 			}
-			/*if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y)*/ location = pos_x + "," + pos_y + "," + facing;
+			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y) location = pos_x + "," + pos_y + "," + facing;
 		}
 		
 		return location;
