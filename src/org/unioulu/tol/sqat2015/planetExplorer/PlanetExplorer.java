@@ -67,6 +67,8 @@ public class PlanetExplorer {
 		
 		int pos_x=0;
 		int pos_y=0;
+		int new_x=pos_x;
+		int new_y=pos_y;
 		char facing=78;
 		String location = pos_x + "," + pos_y + "," + facing;
 		int collision=0;
