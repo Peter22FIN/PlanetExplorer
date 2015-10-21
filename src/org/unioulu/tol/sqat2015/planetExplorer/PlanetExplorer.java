@@ -95,11 +95,11 @@ public class PlanetExplorer {
 				else if (facing == 69) facing = 78; //EAST -> NORTH
 				else if (facing == 87) facing = 83; //WEST -> SOUTH
 			}
-			if (isObstacles) {
+			/*if (isObstacles) {
 				for (int k = 0; k < obstacleX.length;k++) {
 					if (pos_x == Integer.parseInt(obstacleX[k]) || pos_y == Integer.parseInt(obstacleY[k])) collision=1;
 				}
-			}
+			}*/
 			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y & collision == 0) location = pos_x + "," + pos_y + "," + facing;
 			collision = 0;
 		}
