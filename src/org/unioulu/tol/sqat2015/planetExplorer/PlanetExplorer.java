@@ -76,16 +76,16 @@ public class PlanetExplorer {
 		for (int i = 0; i < command.length();i++) {
 			char c = command.charAt(i);
 			if (c==102) { //forward
-				if (facing == 78) pos_y++; //NORTH
-				else if (facing == 83) pos_y--; //SOUTH
-				else if (facing == 69) pos_x++; //EAST
-				else if (facing == 87) pos_x--; //WEST
+				if (facing == 78) new_y++; //NORTH
+				else if (facing == 83) new_y--; //SOUTH
+				else if (facing == 69) new_x++; //EAST
+				else if (facing == 87) new_x--; //WEST
 			}
 			else if (c==98) { //backward
-				if (facing == 78) pos_y--; //NORTH
-				else if (facing == 83) pos_y++; //SOUTH
-				else if (facing == 69) pos_x--; //EAST
-				else if (facing == 87) pos_x++; //WEST
+				if (facing == 78) new_y--; //NORTH
+				else if (facing == 83) new_y++; //SOUTH
+				else if (facing == 69) new_x--; //EAST
+				else if (facing == 87) new_x++; //WEST
 			}
 			else if (c==114) { //right
 				if (facing == 78) facing = 69; //NORTH -> EAST
@@ -101,10 +101,18 @@ public class PlanetExplorer {
 			}
 			if (isObstacles) {
 				for (int k = 0; k < obstacleX.length;k++) {
-					if (pos_x == obstacleX[k] && pos_y == obstacleY[k]) collision=1;
+					if (new_x == obstacleX[k] && new_y == obstacleY[k]) collision=1;
 				}
 			}
-			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y && collision == 0) location = pos_x + "," + pos_y + "," + facing;
+			if (new_x>=0 && new_x<=x && new_y>=0 && new_y<=y && collision == 0){
+				pos_x=new_x;
+				pos_y=new_y;
+				location = pos_x + "," + pos_y + "," + facing;
+			}
+			else {
+			new_x=pos_x;
+			new_y=pos_x;
+			}
 			collision = 0;
 		}
 		
