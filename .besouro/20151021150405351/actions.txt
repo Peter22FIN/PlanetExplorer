@@ -52,3 +52,8 @@ RefactoringAction 1445429757022 TestPlanetExplorer.java RENAME testCommandFFRFre
 RefactoringAction 1445429760037 TestPlanetExplorer.java RENAME testCommandFFRFwithreturns02E()=>void testCommandFFRFwithObstaclereturns02E() METHOD
 RefactoringAction 1445429762055 TestPlanetExplorer.java RENAME testCommandFFRFwithObstaclereturns02E()=>void testCommandFFRFwithObstacleReturns02E() METHOD
 EditAction 1445429835077 TestPlanetExplorer.java 1118 5 10 5
+UnitTestCaseAction 1445429839068 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429839069 TestPlanetExplorer FAIL
+RefactoringAction 1445430398585 PlanetExplorer.java ADD List obstacles FIELD
+RefactoringAction 1445430508147 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
+EditAction 1445430580408 PlanetExplorer.java 2930 2 6 0

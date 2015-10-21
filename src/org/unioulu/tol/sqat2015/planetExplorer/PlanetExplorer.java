@@ -1,4 +1,5 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
+import java.util.ArrayList;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -7,6 +8,7 @@ public class PlanetExplorer {
 	
 	private int x;
 	private int y;
+	private List obstacles = new ArrayList();
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -18,6 +20,17 @@ public class PlanetExplorer {
 		
 		this.x=x;
 		this.y=y;
+		int j=0;
+		String obstacle = "";
+		
+		for (int i = 0; i < obstacles.length();i++) {
+			char o = obstacles.charAt(i);
+			if (j==0) j=1;
+			else if (j==1) {
+				if (o==44) 
+			}
+			
+		}
 		
 	}
 	
@@ -38,8 +51,8 @@ public class PlanetExplorer {
 		char facing=78;
 		String location = pos_x + "," + pos_y + "," + facing;
 		
-		for (int index = 0; index < command.length();index++) {
-			char c = command.charAt(index);
+		for (int i = 0; i < command.length();i++) {
+			char c = command.charAt(i);
 			if (c==102) { //forward
 				if (facing == 78) pos_y++; //NORTH
 				else if (facing == 83) pos_y--; //SOUTH
