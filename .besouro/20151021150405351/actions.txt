@@ -14,3 +14,13 @@ RefactoringAction 1445429124502 TestPlanetExplorer.java RENAME testCommandRightV
 RefactoringAction 1445429149172 TestPlanetExplorer.java RENAME East()=><initializer /1> null
 RefactoringAction 1445429150685 TestPlanetExplorer.java RENAME testCommandRightVehicleTurns=>void testCommandRightVehicleTurnsEast FIELD
 EditAction 1445429162267 TestPlanetExplorer.java 567 2 4 2
+UnitTestCaseAction 1445429165135 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429165136 TestPlanetExplorer OK
+RefactoringAction 1445429174743 TestPlanetExplorer.java ADD void testCommandRightVehicleTurnsEast()/2 METHOD
+RefactoringAction 1445429185758 TestPlanetExplorer.java RENAME testCommandRightVehicleTurnsEast()/2=>void testCommandFF() METHOD
+RefactoringAction 1445429186771 TestPlanetExplorer.java RENAME testCommandFF()=>void testCommandFFR() METHOD
+RefactoringAction 1445429187786 TestPlanetExplorer.java RENAME testCommandFFR()=>void testCommandFFRF() METHOD
+RefactoringAction 1445429200800 TestPlanetExplorer.java RENAME testCommandFFRF()=>void testCommandFFRFreturns() METHOD
+RefactoringAction 1445429210878 TestPlanetExplorer.java RENAME testCommandFFRFreturns()=>void testCommandFFRFreturns02() METHOD
+RefactoringAction 1445429211892 TestPlanetExplorer.java RENAME testCommandFFRFreturns02()=>void testCommandFFRFreturns02E() METHOD
+EditAction 1445429230055 TestPlanetExplorer.java 745 3 6 3
