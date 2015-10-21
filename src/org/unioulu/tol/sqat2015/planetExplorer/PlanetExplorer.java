@@ -28,7 +28,7 @@ public class PlanetExplorer {
 		if (obstacles.equals("")) {
 			isObstacles=false;
 		}
-		/*else {
+		else {
 			for (int i = 0; i < obstacles.length();i++) {
 				char o = obstacles.charAt(i);
 				if (j==0 && o==40) j=1;
@@ -48,7 +48,7 @@ public class PlanetExplorer {
 					}
 				}
 			}	
-		}*/
+		}
 	}
 	
 	public String executeCommand(String command){
