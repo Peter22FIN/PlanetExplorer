@@ -5,3 +5,6 @@
 1445429260172 test-addition 1 85 true
 1445429260173 test-addition 2 85 true
 1445429260174 test-addition 1 85 true
+1445429667644 test-first 3 295 true
+1445429667645 test-first 3 295 true
+1445429667646 test-last 1 295 false

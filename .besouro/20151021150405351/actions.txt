@@ -45,3 +45,10 @@ EditAction 1445429649440 TestPlanetExplorer.java 926 4 8 4
 UnitTestCaseAction 1445429651255 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445429651256 TestPlanetExplorer FAIL
 EditAction 1445429661465 PlanetExplorer.java 2676 2 8 0
+UnitTestCaseAction 1445429667644 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429667644 TestPlanetExplorer OK
+RefactoringAction 1445429743883 TestPlanetExplorer.java ADD void testCommandFFRFreturns02E()/2 METHOD
+RefactoringAction 1445429757022 TestPlanetExplorer.java RENAME testCommandFFRFreturns02E()/2=>void testCommandFFRFwithreturns02E() METHOD
+RefactoringAction 1445429760037 TestPlanetExplorer.java RENAME testCommandFFRFwithreturns02E()=>void testCommandFFRFwithObstaclereturns02E() METHOD
+RefactoringAction 1445429762055 TestPlanetExplorer.java RENAME testCommandFFRFwithObstaclereturns02E()=>void testCommandFFRFwithObstacleReturns02E() METHOD
+EditAction 1445429835077 TestPlanetExplorer.java 1118 5 10 5

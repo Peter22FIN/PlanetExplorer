@@ -29,4 +29,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 		assertEquals("0,3,N", explorer.executeCommand("ffff"));
 	}
+	
+	@Test
+	public void testCommandFFRFwithObstacleReturns02E() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,2)");
+		assertEquals("1,1,E", explorer.executeCommand("ffrf"));
+	}
 }
