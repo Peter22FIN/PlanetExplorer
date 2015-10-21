@@ -21,7 +21,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testCommandFFRFreturns02E() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
-		assertEquals("0,2,E", explorer.executeCommand("ffrf"));
+		assertEquals("1,2,E", explorer.executeCommand("ffrf"));
 	}
 	
 }

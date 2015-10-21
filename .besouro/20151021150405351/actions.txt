@@ -24,3 +24,6 @@ RefactoringAction 1445429200800 TestPlanetExplorer.java RENAME testCommandFFRF()
 RefactoringAction 1445429210878 TestPlanetExplorer.java RENAME testCommandFFRFreturns()=>void testCommandFFRFreturns02() METHOD
 RefactoringAction 1445429211892 TestPlanetExplorer.java RENAME testCommandFFRFreturns02()=>void testCommandFFRFreturns02E() METHOD
 EditAction 1445429230055 TestPlanetExplorer.java 745 3 6 3
+UnitTestCaseAction 1445429232407 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429232407 TestPlanetExplorer FAIL
+EditAction 1445429258639 TestPlanetExplorer.java 745 3 6 3
