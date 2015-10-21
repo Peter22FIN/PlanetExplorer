@@ -23,20 +23,23 @@ public class PlanetExplorer {
 		int j=0;
 		int k=0;
 		String obstacle = "";
-		
-		for (int i = 0; i < obstacles.length();i++) {
-			char o = obstacles.charAt(i);
-			if (j==0 && o==40) j=1;
-			else {
-				if (o==44) {
+
+		if (obstacles.equals("")) {
+		}
+		else {
+			for (int i = 0; i < obstacles.length();i++) {
+				char o = obstacles.charAt(i);
+				if (j==0 && o==40) j=1;
+				else {
+					if (o==44) {
 					obstacleX[k] = obstacle;
-				}
-				if (o==41 || i+1==obstacles.length()) {
+					}
+					if (o==41 || i+1==obstacles.length()) {
 					obstacleY[k] = obstacle;
-					k++;
+						k++;
+					}
 				}
-			}
-			
+			}	
 		}
 		
 	}

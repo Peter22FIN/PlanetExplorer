@@ -71,3 +71,6 @@ CompilationAction 1445431183870 PlanetExplorer.java
 RefactoringAction 1445431379255 PlanetExplorer.java RENAME obstacleX=>Private FIELD
 RefactoringAction 1445431383774 PlanetExplorer.java RENAME String=>String FIELD
 EditAction 1445431740647 PlanetExplorer.java 3277 2 13 0
+UnitTestCaseAction 1445431745991 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431745992 TestPlanetExplorer FAIL
+EditAction 1445431962972 PlanetExplorer.java 3333 2 13 0
