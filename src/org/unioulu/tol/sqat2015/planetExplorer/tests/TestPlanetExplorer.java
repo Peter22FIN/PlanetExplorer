@@ -11,4 +11,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 		assertEquals("0,1,N", explorer.executeCommand("f"));
 	}
+	
+	@Test
+	public void testCommandRightVehicleTurnsEast() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("0,0,E", explorer.executeCommand("r"));
+	}
 }
