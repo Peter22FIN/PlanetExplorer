@@ -180,3 +180,5 @@ RefactoringAction 1445434214801 TestPlanetExplorer.java RENAME testCommandFFRFwi
 RefactoringAction 1445434215814 TestPlanetExplorer.java RENAME testCommandFFRFwithObstacleReturns0N()=>void testCommandFFRFwithObstacleReturns01N() METHOD
 RefactoringAction 1445434220828 TestPlanetExplorer.java RENAME testCommandFFRFwithObstacleReturns01N()=>void testCommandFFFwithObstacleReturns01N() METHOD
 EditAction 1445434225538 TestPlanetExplorer.java 1301 6 12 6
+RefactoringAction 1445434230355 TestPlanetExplorer.java RENAME testCommandFFFwithObstacleReturns01N()=>void testCommandFFwithObstacleReturns01N() METHOD
+EditAction 1445434230852 TestPlanetExplorer.java 1300 6 12 6
