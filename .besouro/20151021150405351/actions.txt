@@ -153,3 +153,10 @@ UnitTestSessionAction 1445433672478 TestPlanetExplorer FAIL
 RefactoringAction 1445433750604 TestPlanetExplorer.java RENAME testCommandFFRFwithObstacleReturns02E()=>void testCommandFwithObstacleReturns02E() METHOD
 RefactoringAction 1445433756117 TestPlanetExplorer.java RENAME testCommandFwithObstacleReturns02E()=>void testCommandFwithObstacleReturns00N() METHOD
 EditAction 1445433757161 TestPlanetExplorer.java 1112 5 10 5
+UnitTestCaseAction 1445433759241 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433759241 TestPlanetExplorer.testCommandFwithObstacleReturns00N OK
+RefactoringAction 1445433873664 TestPlanetExplorer.java ADD void testCommandFwithObstacleReturns00N()/2 METHOD
+RefactoringAction 1445433881179 TestPlanetExplorer.java RENAME testCommandFwithObstacleReturns00N()/2=>void testCommandFFwithObstacleReturns00N() METHOD
+RefactoringAction 1445433882194 TestPlanetExplorer.java RENAME testCommandFFwithObstacleReturns00N()=>void testCommandFFRwithObstacleReturns00N() METHOD
+RefactoringAction 1445433883209 TestPlanetExplorer.java RENAME testCommandFFRwithObstacleReturns00N()=>void testCommandFFRFwithObstacleReturns00N() METHOD
+EditAction 1445433925294 TestPlanetExplorer.java 1304 6 12 6
