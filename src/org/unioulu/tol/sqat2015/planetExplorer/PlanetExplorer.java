@@ -37,17 +37,18 @@ public class PlanetExplorer {
 					obstacleX[k] = obstacle;
 					obstacle = "";
 					}
-					if (o==41 || i+1==obstacles.length()) {
+					else if (o==41 || i+1==obstacles.length()) {
 					obstacleY[k] = obstacle;
 					obstacle = "";
 					k++;
 					j=0;
 					}
-				obstacle = obstacle + o;
+					else {
+						obstacle = obstacle + o;
+					}
 				}
 			}	
 		}
-		
 	}
 	
 	public String executeCommand(String command){
