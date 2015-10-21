@@ -32,7 +32,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void testCommandFFRFwithObstacleReturns02E() {
-		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,2)");
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"asd");
 		assertEquals("1,1,E", explorer.executeCommand("ffrf"));
 	}
 }
