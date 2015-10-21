@@ -1,5 +1,4 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
-import java.util.ArrayList;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -8,7 +7,8 @@ public class PlanetExplorer {
 	
 	private int x;
 	private int y;
-	private List obstacles = new ArrayList();
+	private String[] obstacleX;
+	private String[] obstacleY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -21,13 +21,20 @@ public class PlanetExplorer {
 		this.x=x;
 		this.y=y;
 		int j=0;
+		int k=0;
 		String obstacle = "";
 		
 		for (int i = 0; i < obstacles.length();i++) {
 			char o = obstacles.charAt(i);
-			if (j==0) j=1;
-			else if (j==1) {
-				if (o==44) 
+			if (j==0 && o==40) j=1;
+			else {
+				if (o==44) {
+					obstacleX[k] = obstacle;
+				}
+				if (o==41 || i+1==obstacles.length()) {
+					obstacleY[k] = obstacle;
+					k++;
+				}
 			}
 			
 		}
@@ -50,6 +57,7 @@ public class PlanetExplorer {
 		int pos_y=0;
 		char facing=78;
 		String location = pos_x + "," + pos_y + "," + facing;
+		int collision=0;
 		
 		for (int i = 0; i < command.length();i++) {
 			char c = command.charAt(i);
@@ -77,7 +85,11 @@ public class PlanetExplorer {
 				else if (facing == 69) facing = 78; //EAST -> NORTH
 				else if (facing == 87) facing = 83; //WEST -> SOUTH
 			}
-			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y) location = pos_x + "," + pos_y + "," + facing;
+			for (int k = 0; k < obstacleX.length;k++) {
+				if (pos_x == Integer.parseInt(obstacleX[k]) || pos_y == Integer.parseInt(obstacleY[k])) collision=1;
+			}
+			if (pos_x>=0 && pos_x<=x && pos_y>=0 && pos_y<=y & collision == 0) location = pos_x + "," + pos_y + "," + facing;
+			collision = 0;
 		}
 		
 		return location;

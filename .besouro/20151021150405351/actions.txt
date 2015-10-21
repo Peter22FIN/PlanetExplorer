@@ -57,3 +57,17 @@ UnitTestSessionAction 1445429839069 TestPlanetExplorer FAIL
 RefactoringAction 1445430398585 PlanetExplorer.java ADD List obstacles FIELD
 RefactoringAction 1445430508147 PlanetExplorer.java ADD import java.util.ArrayList IMPORT
 EditAction 1445430580408 PlanetExplorer.java 2930 2 6 0
+CompilationAction 1445430580717 PlanetExplorer.java
+CompilationAction 1445430580717 PlanetExplorer.java
+RefactoringAction 1445430610408 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1445430679954 PlanetExplorer.java ADD int FIELD
+RefactoringAction 1445430742514 PlanetExplorer.java RENAME anArray=>int FIELD
+RefactoringAction 1445430812714 PlanetExplorer.java RENAME obstacles=>int FIELD
+RefactoringAction 1445430876844 PlanetExplorer.java RENAME obs=>String FIELD
+RefactoringAction 1445430878864 PlanetExplorer.java RENAME obstacle=>String FIELD
+RefactoringAction 1445430885401 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1445430886922 PlanetExplorer.java RENAME obstacleX/2=>String FIELD
+CompilationAction 1445431183870 PlanetExplorer.java
+RefactoringAction 1445431379255 PlanetExplorer.java RENAME obstacleX=>Private FIELD
+RefactoringAction 1445431383774 PlanetExplorer.java RENAME String=>String FIELD
+EditAction 1445431740647 PlanetExplorer.java 3277 2 13 0
