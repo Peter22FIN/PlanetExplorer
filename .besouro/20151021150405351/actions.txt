@@ -148,3 +148,8 @@ EditAction 1445433642129 PlanetExplorer.java 3580 2 15 0
 UnitTestCaseAction 1445433644370 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433644371 TestPlanetExplorer FAIL
 EditAction 1445433669784 PlanetExplorer.java 3580 2 15 0
+UnitTestCaseAction 1445433672478 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433672478 TestPlanetExplorer FAIL
+RefactoringAction 1445433750604 TestPlanetExplorer.java RENAME testCommandFFRFwithObstacleReturns02E()=>void testCommandFwithObstacleReturns02E() METHOD
+RefactoringAction 1445433756117 TestPlanetExplorer.java RENAME testCommandFwithObstacleReturns02E()=>void testCommandFwithObstacleReturns00N() METHOD
+EditAction 1445433757161 TestPlanetExplorer.java 1112 5 10 5

@@ -31,8 +31,8 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testCommandFFRFwithObstacleReturns02E() {
-		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,2)");
-		assertEquals("1,1,E", explorer.executeCommand("ffrf"));
+	public void testCommandFwithObstacleReturns00N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,1)");
+		assertEquals("0,0,N", explorer.executeCommand("f"));
 	}
 }
